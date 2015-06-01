@@ -27,9 +27,7 @@
                 <td>{{ $event->begintijd }}</td>
                 <td>{{ $event->eindtijd }}</td>
                 <td>{{ $event->aantalkaarten }}</td>
-                <td><a href="{{ URL::action('TicketController@edit', [$event->id]) }}">
-                        <button class="btn">Koop</button>
-                    </a></td>
+                <td><a href="{{ URL::action('OrderController@order', [$event->id]) }}"><button class="btn">Koop</button></a></td>
             </tr>
         @endforeach
         </tbody>

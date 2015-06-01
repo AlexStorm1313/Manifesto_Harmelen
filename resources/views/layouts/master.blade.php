@@ -9,11 +9,11 @@
 </head>
 <body>
 @section('header')
-    This is the header
+
 @show
 
 @section('navigation')
-    This is the navigation menu
+
 @show
 
 <div class="container">

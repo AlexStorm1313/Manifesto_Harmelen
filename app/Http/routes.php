@@ -15,3 +15,4 @@ Route::get('/', 'HomeController@index');
 Route::get('agenda', 'AgendaController@index');
 Route::resource('event', 'EventController');
 Route::resource('ticket', 'TicketController');
+Route::get('order/{id}', 'OrderController@order');

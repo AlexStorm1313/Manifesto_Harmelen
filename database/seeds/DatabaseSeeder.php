@@ -15,11 +15,12 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        $this->call('EventsTableSeeder');
+        $this->call('EventTableSeeder');
+        $this->call('TicketTableSeeder');
     }
 }
 
-class EventsTableSeeder extends Seeder
+class EventTableSeeder extends Seeder
 {
 
     public function run()
@@ -27,22 +28,52 @@ class EventsTableSeeder extends Seeder
         DB::table('events')->delete();
 
         DB::table('events')->insert(array(
+            'id' => 13,
             'artiest' => 'Arrow Smith',
             'naam' => 'Rocked Up',
             'begintijd' => '2015-03-01 22:00:00',
             'eindtijd' => '2015-03-02 03:00:00',
+            'speciaalevenement' => 0,
             'aantalkaarten' => 150,
-            'prijs' => 25.75,
         ));
 
         DB::table('events')->insert(array(
+            'id' => 14,
             'artiest' => 'Snoop Dogg',
             'naam' => '#420',
             'begintijd' => '2015-03-03 13:00:00',
             'eindtijd' => '2015-03-05 14:00:00',
+            'speciaalevenement' => 0,
             'aantalkaarten' => 150,
-            'prijs' => 89.90,
         ));
     }
+}
 
+class TicketTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('tickets')->delete();
+
+        $count = 0;
+        while ($count != 15) {
+
+            DB::table('tickets')->insert(array(
+                'klantid' => 0,
+                'eventid' => 13,
+                'prijs' => 89.75,
+            ));
+            $count++;
+        }
+        $count2 = 0;
+        while ($count2 != 15) {
+
+            DB::table('tickets')->insert(array(
+                'klantid' => 0,
+                'eventid' => 14,
+                'prijs' => 25.75,
+            ));
+            $count2++;
+        }
+    }
 }
