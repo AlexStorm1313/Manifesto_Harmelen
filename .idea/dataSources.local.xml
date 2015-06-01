@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @localhost" uuid="5adcecda-9ff4-4f2f-8478-fc26d1a9a717">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-port>22</proxy-port>
+        <secret-storage>master_key</secret-storage>
+        <use-password>false</use-password>
+        <private-key-path>$USER_HOME$/.vagrant.d/insecure_private_key</private-key-path>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
