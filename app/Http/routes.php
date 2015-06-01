@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('agenda', 'AgendaController@index');
+Route::resource('event', 'EventController');
+Route::resource('ticket', 'TicketController');
