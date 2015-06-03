@@ -16,3 +16,5 @@ Route::get('agenda', 'AgendaController@index');
 Route::resource('event', 'EventController');
 Route::resource('ticket', 'TicketController');
 Route::get('order/{id}', 'OrderController@order');
+Route::post('buy', 'OrderController@buy');
+Route::get('order_success', 'OrderController@order_success');

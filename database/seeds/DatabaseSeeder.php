@@ -56,7 +56,7 @@ class TicketTableSeeder extends Seeder
         DB::table('tickets')->delete();
 
         $count = 0;
-        while ($count != 15) {
+        while ($count != 7) {
 
             DB::table('tickets')->insert(array(
                 'klantid' => 0,

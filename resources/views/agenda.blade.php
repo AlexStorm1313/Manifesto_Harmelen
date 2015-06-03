@@ -26,7 +26,7 @@
                 <td>{{ $event->artiest }}</td>
                 <td>{{ $event->begintijd }}</td>
                 <td>{{ $event->eindtijd }}</td>
-                <td>{{ $event->aantalkaarten }}</td>
+                <td>{{ DB::table('tickets')->where(['eventid' => $event->id, 'klantid' => 0])->count() }}</td>
                 <td><a href="{{ URL::action('OrderController@order', [$event->id]) }}"><button class="btn">Koop</button></a></td>
             </tr>
         @endforeach
