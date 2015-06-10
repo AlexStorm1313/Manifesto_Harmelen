@@ -18,3 +18,4 @@ Route::resource('ticket', 'TicketController');
 Route::get('order/{id}', 'OrderController@order');
 Route::post('buy', 'OrderController@buy');
 Route::get('order_success', 'OrderController@order_success');
+Route::any('get_saved_tickets', 'OrderController@get_saved_tickets');

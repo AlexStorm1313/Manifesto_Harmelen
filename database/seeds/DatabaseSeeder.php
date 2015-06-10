@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
@@ -62,6 +63,7 @@ class TicketTableSeeder extends Seeder
                 'klantid' => 0,
                 'eventid' => 13,
                 'prijs' => 89.75,
+                'ticket_number' => Str::random(15),
             ));
             $count++;
         }
@@ -72,6 +74,7 @@ class TicketTableSeeder extends Seeder
                 'klantid' => 0,
                 'eventid' => 14,
                 'prijs' => 25.75,
+                'ticket_number' => Str::random(15),
             ));
             $count2++;
         }

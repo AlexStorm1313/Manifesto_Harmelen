@@ -21,8 +21,14 @@
                   'class'=>'form-control')) !!}
     </div>
     <div class="form-group">
-        {!! Form::submit('Order tickets',
-      array('class'=>'btn'))!!}
+        {!! Form::submit('order',
+      array('name' => 'order', 'class'=>'btn'))!!}
+
+    </div>
+    <div class="form-group">
+        {!! Form::submit('save',
+      array('name' => 'save', 'class'=>'btn'))!!}
+
     </div>
     {!! Form::close() !!}
 
