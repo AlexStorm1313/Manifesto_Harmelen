@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Agenda')
+@section('agenda', 'active')
 
 @section('header')
 
@@ -50,5 +51,29 @@
 
     </div>
     {!! Form::close() !!}
-
+    @foreach($events as $event)
+        <div class="event_container">
+            <div class="event_header">
+                <span class="event_date">
+                <div class="event_day">Do</div>
+                <div class="event_day_date">11 jul</div>
+                </span>
+                <span class="event_title">
+                    <div class="event_name">{!! $event->naam !!}</div>
+                    <div class="event_artist">{!! $event->artiest !!}</div>
+                </span>
+            </div>
+            <div class="event_info_container">
+                <div class="event_info">
+                    <span class="event_zaal">Zaal: </span><span>Yolo zaal</span>
+                    <span class="event_time">Tijd: </span><span>20:00</span>
+                    <span class="event_price">Prijs: </span><span>{!! DB::table('tickets')->where('eventid', $event->id)->pluck('prijs') !!}
+                        ,-</span>
+                </div>
+            </div>
+            <a href="{{ URL::action('OrderController@order', [$event->id]) }}">
+                <div class="buy_tickets_button">Kooop</div>
+            </a>
+        </div>
+    @endforeach
 @stop
