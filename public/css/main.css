@@ -85,16 +85,16 @@
 }
 
 .event_container {
-    width: 500px;
-    margin: 25px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .event_header {
     position: relative;
-    border-top: 1px solid #ECECEC;
-    border-right: 1px solid #ECECEC;
-    border-left: 1px solid #ECECEC;
     height: 65px;
+    background-color: #ffffff;
+
 }
 
 .event_date {
@@ -138,7 +138,7 @@
 .event_info {
     font-size: 1.3em;
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 3em;
 }
 
 .event_zaal {
@@ -161,10 +161,33 @@
     font-size: 1.5em;
     font-weight: 500;
 }
-.buy_tickets_button :hover{
+
+.buy_tickets_button :hover {
     background-color: #E77722;
 }
 
 a :hover {
     text-decoration-line: none;
+}
+
+.main_container {
+    background-color: rgba(215, 215, 215, 0.20);
+}
+
+.agenda_selector {
+    background-color: #ffffff;
+    margin-left: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 100px;
+}
+.page_header{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 25px;
+}
+.page_header_text{
+    margin-left:60px;
 }

@@ -19,7 +19,9 @@ class CreateEventsTable extends Migration
             $table->string('naam');
             $table->dateTime('begintijd');
             $table->dateTime('eindtijd');
-            $table->boolean('speciaalevenement');
+            $table->string('zaal');
+            $table->boolean('hidden')->default(false);
+            $table->boolean('speciaalevenement')->default(false);
             $table->integer('aantalkaarten');
 
             $table->timestamps();

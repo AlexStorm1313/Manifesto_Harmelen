@@ -34,6 +34,7 @@ class EventTableSeeder extends Seeder
             'naam' => 'Rocked Up',
             'begintijd' => '2015-03-01 22:00:00',
             'eindtijd' => '2015-03-02 03:00:00',
+            'zaal' => 'Up and away & Down to the road of fear',
             'speciaalevenement' => 0,
             'aantalkaarten' => 150,
         ));
@@ -44,6 +45,7 @@ class EventTableSeeder extends Seeder
             'naam' => '#420',
             'begintijd' => '2015-03-03 13:00:00',
             'eindtijd' => '2015-03-05 14:00:00',
+            'zaal' => 'Space down',
             'speciaalevenement' => 0,
             'aantalkaarten' => 150,
         ));

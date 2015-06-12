@@ -47,7 +47,7 @@
 @section('navigation')
 
 @show
-<div class="main">
+<div class="main_container">
     @yield('content')
 </div>
 </body>
