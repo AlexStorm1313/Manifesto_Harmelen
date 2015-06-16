@@ -25,3 +25,5 @@ Route::get('get_saved_tickets', 'OrderController@get_saved_tickets');
 Route::get('login', 'LoginController@');
 Route::get('login', array('uses' => 'LoginController@showLogin'));
 Route::post('login', array('uses' => 'LoginController@doLogin'));
+Route::get('logout', array('uses' => 'LoginController@doLogout'));
+Route::get('admin_home', array('before' => 'auth', 'uses' => 'HomeController@showAdminHome'));

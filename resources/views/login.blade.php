@@ -10,10 +10,8 @@
 @section('content')
     <div class="container">
         {!! Form::open(array('url' => 'login')) !!}
-        <h1>Login</h1>
-
         <!-- if there are login errors, show them here -->
-        <p>
+        <p style="color: red; margin-top: 20px;">
             {!! $errors->first('email') !!}
             {!! $errors->first('password') !!}
         </p>

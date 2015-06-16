@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Home')
-@section('page_header', 'Home')
+@section('page_header', '{!! Auth::user()->username!!}')
 @section('home', 'active')
 
 @section('content')

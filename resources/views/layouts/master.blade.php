@@ -32,21 +32,29 @@
         {!! HTML::image('images/logo/manifesto_logo.png', 'manifesto_logo', array('class' => 'manifesto-logo')) !!}
         <div class="nav pull-right pull-bottom">
             <ul>
-                <li class="home"><a class="@yield('home')" href="/">Home</a></li>
-                <li class="tutorials"><a class="@yield('agenda')" href="agenda">Agenda</a></li>
-                <li class="about"><a class="@yield('nieuws')" href="#">Nieuws</a></li>
-                <li class="news"><a class="@yield('informatie')" href="#">Informatie</a></li>
-                <li class="contact"><a class="@yield('fotoalbum')" href="#">Fotoalbum</a></li>
-                <li class="contact"><a class="@yield('contact')" href="#">Contact</a></li>
+                @if(Auth::check() === false)
+                    <li class="home"><a class="@yield('home')" href="/">Home</a></li>
+                    <li class="tutorials"><a class="@yield('agenda')" href="agenda">Agenda</a></li>
+                    <li class="about"><a class="@yield('nieuws')" href="#">Nieuws</a></li>
+                    <li class="news"><a class="@yield('informatie')" href="#">Informatie</a></li>
+                    <li class="fotoalbum"><a class="@yield('fotoalbum')" href="#">Fotoalbum</a></li>
+                    <li class="contact"><a class="@yield('contact')" href="#">Contact</a></li>
+                @endif
+                @if(Auth::check())
+                    <li class="contact"><a class="" href="logout">Home</a></li>
+                    <li class="contact"><a class="" href="logout">Manage Events</a></li>
+                    <li class="contact"><a class="" href="logout">Account</a></li>
+                    <li class="contact"><a class="" href="logout">Logout</a></li>
+                @endif
             </ul>
         </div>
     </div>
 
 </div>
 
-    <div class="page_header">
-        <div class="page_header_text">@yield('page_header')</div>
-    </div>
+<div class="page_header">
+    <div class="page_header_text">@yield('page_header')</div>
+</div>
 <div class="main_container">
     @yield('content')
 </div>

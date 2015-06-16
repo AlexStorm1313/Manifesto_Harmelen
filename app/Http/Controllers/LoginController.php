@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Validator;
 
 class LoginController extends Controller
 {
@@ -16,19 +18,34 @@ class LoginController extends Controller
         return view('login');
     }
 
-
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|string
+     */
     public function doLogin(Request $request)
     {
+        $validator = Validator::make(
+            ['email' => 'required'],
+            ['password' => 'required']
+        );
         $email = $request->input('email');
         $password = $request->input('password');
 
         if (Auth::attempt(['email' => $email, 'password' => $password])) {
             //echo "success";
-            return redirect('/');
+            return redirect('admin_home');
         } else {
-            return "fail";
+            return redirect('login')->withErrors($validator);
         }
 
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function doLogout(){
+        Auth::logout();
+        return redirect('login');
     }
 
     /**
