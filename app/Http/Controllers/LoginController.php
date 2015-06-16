@@ -17,8 +17,18 @@ class LoginController extends Controller
     }
 
 
-    public function doLogin()
+    public function doLogin(Request $request)
     {
+        $email = $request->input('email');
+        $password = $request->input('password');
+
+        if (Auth::attempt(['email' => $email, 'password' => $password])) {
+            //echo "success";
+            return redirect('/');
+        } else {
+            return "fail";
+        }
+
     }
 
     /**

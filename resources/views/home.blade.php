@@ -5,6 +5,7 @@
 @section('home', 'active')
 
 @section('content')
+    {!! Auth::user()->email !!}
     <div class="container">
         <div class="event_container">
             <div class="event_header">
