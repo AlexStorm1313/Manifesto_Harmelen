@@ -44,9 +44,9 @@
 
 </div>
 
-@section('navigation')
-
-@show
+    <div class="page_header">
+        <div class="page_header_text">@yield('page_header')</div>
+    </div>
 <div class="main_container">
     @yield('content')
 </div>

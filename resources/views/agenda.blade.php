@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Agenda')
+@section('page_header', 'Agenda')
 @section('agenda', 'active')
 
 @section('header')
@@ -50,9 +51,6 @@
 
      </div>
      {!! Form::close() !!}--}}
-    <div class="page_header">
-        <div class="page_header_text">Agenda</div>
-    </div>
     <div class="container">
         <div class="col-lg-8">
             @foreach($events as $event)
@@ -82,7 +80,9 @@
             @endforeach
         </div>
         <div class="col-md-3 agenda_selector">
-            sfdsfas
+            <div class="agenda_selector_header">
+                Filter
+            </div>
         </div>
     </div>
 @stop

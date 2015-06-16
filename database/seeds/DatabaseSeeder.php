@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call('EventTableSeeder');
         $this->call('TicketTableSeeder');
+        $this->call('UserTableSeeder');
     }
 }
 
@@ -80,5 +81,19 @@ class TicketTableSeeder extends Seeder
             ));
             $count2++;
         }
+    }
+}
+
+class UserTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('users')->delete();
+        User::create(array(
+            'name' => 'Alex Brasser',
+            'username' => 'AlexStorm13',
+            'email' => 'alexbrasser@gmail.com',
+            'password' => Hash::make('alex13'),
+        ));
     }
 }
