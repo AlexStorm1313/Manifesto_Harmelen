@@ -1,9 +1,10 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Manifesto\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Manifesto\Http\Requests;
+use Manifesto\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use Manifesto\Ticket;
 
 class TicketController extends Controller
 {

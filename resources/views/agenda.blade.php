@@ -61,6 +61,7 @@
                 <div class="event_day_date">{!! date('j M', strtotime($event->begintijd)) !!}</div>
                 </span>
                 <span class="event_title">
+                    <span><div>{!! $event->aantalkaarten !!}</div></span>
                     <div class="event_name">{!! $event->naam !!}</div>
                     <div class="event_artist">{!! $event->artiest !!}</div>
                 </span>

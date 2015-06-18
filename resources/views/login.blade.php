@@ -26,7 +26,7 @@
             {!! Form::password('password', array('placeholder' => 'Password', 'class' => 'form-control')) !!}
         </div>
 
-        <p>{!! Form::submit('Submit!', array('class' => 'btn btn-default')) !!}</p>
+        <p>{!! Form::submit('Login', array('class' => 'btn btn-default')) !!}</p>
         {!! Form::close() !!}
     </div>
 @stop

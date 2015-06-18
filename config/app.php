@@ -132,11 +132,11 @@ return [
          * Application Service Providers...
          */
         'Barryvdh\Debugbar\ServiceProvider',
-        'App\Providers\AppServiceProvider',
-        'App\Providers\BusServiceProvider',
-        'App\Providers\ConfigServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\RouteServiceProvider',
+        'Manifesto\Providers\AppServiceProvider',
+        'Manifesto\Providers\BusServiceProvider',
+        'Manifesto\Providers\ConfigServiceProvider',
+        'Manifesto\Providers\EventServiceProvider',
+        'Manifesto\Providers\RouteServiceProvider',
 
     ],
     /*

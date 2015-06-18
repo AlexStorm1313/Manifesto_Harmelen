@@ -1,4 +1,5 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Manifesto\Http\Controllers;
+use Manifesto\Event;
 
 class HomeController extends Controller
 {
@@ -34,7 +35,9 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function showAdminHome(){}
-    
+    public function showAdminHome(){
+        $events = Event::all();
+        return view('admin_home')->with('events', $events);
+    }
 
 }

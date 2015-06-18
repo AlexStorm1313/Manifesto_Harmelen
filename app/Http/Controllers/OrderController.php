@@ -1,9 +1,9 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Manifesto\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Manifesto\Http\Requests;
+use Manifesto\Http\Controllers\Controller;
 
-use App\Ticket;
+use Manifesto\Ticket;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
@@ -22,11 +22,14 @@ class OrderController extends Controller
 
     public function buy(Request $request)
     {
+        //assign variables
         $save = $request->input('save');
         $order = $request->input('order');
         $eventid = $request->input('eventid');
         $email = $request->input('email');
         $amount_tickets = $request->input('amount_tickets');
+
+        //if-statement cluster fuck
         if ($order == 'order') {
             $exist = DB::table('customers')->where('email', $email)->count();
             if ($exist == 0) {
@@ -76,6 +79,7 @@ class OrderController extends Controller
                 }
 
             }
+            //MOAAAR STATEMENTS
             $ticket_price = DB::table('tickets')->where('eventid', $eventid)->pluck('prijs');
             $total_price = $amount_tickets * $ticket_price;
 
@@ -140,7 +144,7 @@ class OrderController extends Controller
 
     public function order_success()
     {
-        return view('order_success');
+        return view('order_success'); //return the order_success view if the order is completed.
     }
 
     public function get_saved_tickets(Request $request)

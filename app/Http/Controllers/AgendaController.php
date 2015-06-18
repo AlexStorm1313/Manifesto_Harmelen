@@ -1,8 +1,8 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Manifesto\Http\Controllers;
 
-use App\Event;
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use Manifesto\Event;
+use Manifesto\Http\Requests;
+use Manifesto\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 

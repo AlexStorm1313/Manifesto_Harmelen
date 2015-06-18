@@ -2,9 +2,8 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Customer extends Model
-{
+class Maintenance_Planner extends Model {
 
-    //
+	//
 
 }

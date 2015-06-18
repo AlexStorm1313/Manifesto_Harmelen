@@ -27,7 +27,7 @@ return [
         'region' => 'us-east-1',
     ],
     'stripe' => [
-        'model' => 'App\User',
+        'model' => 'Manifesto\User',
         'secret' => '',
     ],
 

@@ -1,7 +1,7 @@
 <?php
 return [
     'driver' => 'eloquent',
-    'model' => 'App\User',
+    'model' => 'Manifesto\User',
     'table' => 'users',
     'password' => [
         'email' => 'emails.password',

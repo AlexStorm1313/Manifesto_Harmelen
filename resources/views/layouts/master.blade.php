@@ -4,9 +4,11 @@
 <head>
     <title>Manifesto - @yield('title')</title>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     {!! HTML::style('css/main.css') !!}
+    {!! Html::style('css/bootstrap-datetimepicker.css')!!}
+    {!! Html::script('js/bootstrap-datetimepicker.js')!!}
 </head>
 <body>
 <header>
@@ -34,17 +36,18 @@
             <ul>
                 @if(Auth::check() === false)
                     <li class="home"><a class="@yield('home')" href="/">Home</a></li>
-                    <li class="tutorials"><a class="@yield('agenda')" href="agenda">Agenda</a></li>
+                    <li class="tutorials"><a class="@yield('agenda')" href="/agenda">Agenda</a></li>
                     <li class="about"><a class="@yield('nieuws')" href="#">Nieuws</a></li>
                     <li class="news"><a class="@yield('informatie')" href="#">Informatie</a></li>
                     <li class="fotoalbum"><a class="@yield('fotoalbum')" href="#">Fotoalbum</a></li>
                     <li class="contact"><a class="@yield('contact')" href="#">Contact</a></li>
                 @endif
                 @if(Auth::check())
-                    <li class="contact"><a class="" href="logout">Home</a></li>
-                    <li class="contact"><a class="" href="logout">Manage Events</a></li>
-                    <li class="contact"><a class="" href="logout">Account</a></li>
-                    <li class="contact"><a class="" href="logout">Logout</a></li>
+                    <li class="contact"><a class="@yield('home')" href="/admin_home">Home</a></li>
+                    <li class="contact"><a class="@yield('event')" href="/events_show">Events</a></li>
+                    <li class="contact"><a class="@yield('maintenance')" href="/maintenance">Maintenance</a></li>
+                    <li class="contact"><a class="" href="/account">Account</a></li>
+                    <li class="contact"><a class="" href="/logout">Logout</a></li>
                 @endif
             </ul>
         </div>
