@@ -2,12 +2,15 @@
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Manifesto\Event;
 use Manifesto\Http\Requests;
 use Manifesto\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use Manifesto\User;
+use Manifesto\Zaal;
 
 class EventController extends Controller
 {
@@ -30,7 +33,8 @@ class EventController extends Controller
      */
     public function create()
     {
-        return view('event_create');
+        $zalen = Zaal::all()->lists('zaal_naam');
+        return view('event_create')->with('zalen', $zalen);
     }
 
     /**

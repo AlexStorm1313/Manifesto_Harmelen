@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => 'mailgun',
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Address
@@ -34,7 +34,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This is the SMTP port used by your application to deliver e-mails to
-    | users of the application. Like the host we have set this value to
+    | users of the application. Like1e40314af51ea458b3d0ee36ec06dd55 the host we have set this value to
     | stay compatible with the Mailgun e-mail application by default.
     |
     */
@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'noreply@manifesto.dev', 'name' => null],
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol
@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('postmaster@sandbox1de5b80be47648cc8192ec307549bf04.mailgun.org'),
     /*
     |--------------------------------------------------------------------------
     | SMTP Server Password
@@ -87,7 +87,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('1e40314af51ea458b3d0ee36ec06dd55'),
     /*
     |--------------------------------------------------------------------------
     | Sendmail System Path

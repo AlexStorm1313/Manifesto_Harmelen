@@ -61,7 +61,7 @@
                 <div class="event_day_date">{!! date('j M', strtotime($event->begintijd)) !!}</div>
                 </span>
                 <span class="event_title">
-                    <span><div>{!! $event->aantalkaarten !!}</div></span>
+                    {{--<span>{!! $event->aantalkaarten !!}</span>--}}
                     <div class="event_name">{!! $event->naam !!}</div>
                     <div class="event_artist">{!! $event->artiest !!}</div>
                 </span>
@@ -74,9 +74,14 @@
                                 ,-</span>
                         </div>
                     </div>
+                    @if(DB::table('tickets')->where('eventid', $event->id)->count() > 0)
                     <a href="{{ URL::action('OrderController@order', [$event->id]) }}">
                         <div class="buy_tickets_button">Kooop</div>
                     </a>
+                        @elseif(DB::table('tickets')->where('eventid', $event->id)->count() <= 0)
+                        <a href="#">
+                            <div class="buy_tickets_button">uitverkocht</div>
+                        </a> @endif
                 </div>
             @endforeach
         </div>

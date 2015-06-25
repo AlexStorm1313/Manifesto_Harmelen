@@ -36,7 +36,8 @@
             <ul>
                 @if(Auth::check() === false)
                     <li class="home"><a class="@yield('home')" href="/">Home</a></li>
-                    <li class="tutorials"><a class="@yield('agenda')" href="/agenda">Agenda</a></li>
+                    <li class="agenda"><a class="@yield('agenda')" href="/agenda">Agenda</a></li>
+                    <li class="abonnement"><a class="@yield('abonnement')" href="/abonnement">Abonnementen</a></li>
                     <li class="about"><a class="@yield('nieuws')" href="#">Nieuws</a></li>
                     <li class="news"><a class="@yield('informatie')" href="#">Informatie</a></li>
                     <li class="fotoalbum"><a class="@yield('fotoalbum')" href="#">Fotoalbum</a></li>

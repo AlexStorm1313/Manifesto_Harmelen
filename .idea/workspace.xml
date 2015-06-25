@@ -37,88 +37,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="SubscriptionController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="405">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state vertical-scroll-proportion="-8.125" vertical-offset="30" max-vertical-offset="2010">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="e#7#392#0#PHP" expanded="false" />
+                <element signature="e#45#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event_edit.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/event_edit.blade.php">
+      <file leaf-file-name="2015_06_01_123758_create_events_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_01_123758_create_events_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="705">
-              <caret line="19" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
+            <state vertical-scroll-proportion="-12.458333" vertical-offset="1" max-vertical-offset="720">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaintenanceController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MaintenanceController.php">
+      <file leaf-file-name="info.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/email/info.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8235294" vertical-offset="820" max-vertical-offset="1530">
-              <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="630">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1110">
+              <caret line="8" column="39" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirm.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/email/confirm.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OrderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-112.5" vertical-offset="0" max-vertical-offset="2910">
+              <caret line="189" column="5" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agenda.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/agenda.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41666666" vertical-offset="805" max-vertical-offset="1485">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="85" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Subscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="450">
+              <caret line="20" column="9" selection-start-line="8" selection-start-column="7" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5808824" vertical-offset="205" max-vertical-offset="885">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
-                <element signature="e#45#81#0#PHP" expanded="true" />
+                <element signature="e#36#53#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.083334" vertical-offset="1120" max-vertical-offset="1800">
-              <caret line="110" column="15" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding>
-                <element signature="e#45#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maintenance_create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/maintenance_create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="405">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maintenance_show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/maintenance_show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="660">
-              <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/event_create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.833334" vertical-offset="145" max-vertical-offset="825">
-              <caret line="43" column="83" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_06_17_062441_create_maintenance__planners_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_062441_create_maintenance__planners_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="600">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,8 +134,8 @@
       <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.958333" vertical-offset="1495" max-vertical-offset="2175">
-              <caret line="124" column="43" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="43" />
+            <state vertical-scroll-proportion="-7.7083335" vertical-offset="400" max-vertical-offset="3105">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -138,19 +146,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master.html.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_06_01_111242_create_agenda_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_06_01_112026_create_event_table.php" />
-        <option value="$PROJECT_DIR$/vendor/autoload.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_06_01_112026_create_events_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AgendaController.php" />
         <option value="$PROJECT_DIR$/app/Event.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_02_085307_create_customers_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/order.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/order_success.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_01_143128_create_tickets_table.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" />
         <option value="$PROJECT_DIR$/resources/views/get_saved_tickets.blade.php" />
@@ -163,25 +160,43 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_17_062441_create_maintenance__planners_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/agenda.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin_home.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/event_edit.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_06_01_123758_create_events_table.php" />
         <option value="$PROJECT_DIR$/resources/views/events_show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/event_create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EventController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_17_061833_create_maintenances_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/maintenance_create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/maintenance_show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MaintenanceController.php" />
+        <option value="$PROJECT_DIR$/resources/views/order_success.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_24_065541_create_zaals_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/event_create.blade.php" />
+        <option value="$PROJECT_DIR$/config/services.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EventController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/abonnement.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/create_subscription.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/queue.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_24_074145_create_subscriptions_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/email/test.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/email/confirm.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/order.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/agenda.blade.php" />
+        <option value="$PROJECT_DIR$/app/subscription.php" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_01_123758_create_events_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/email/info.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php" />
+        <option value="$PROJECT_DIR$/app/Subscription.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -271,6 +286,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,6 +302,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,6 +350,60 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -335,9 +419,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifesto.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +471,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="even&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;show&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/maintenance_show.blade.php&#10;main&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/MaintenanceController.php&#10;dat&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;data&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;crea&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_17_061833_create_maintenances_table.php&#10;da&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;rout&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;mas&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;login&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/login.blade.php&#10;logi&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/LoginController.php&#10;rou&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;aut&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php&#10;auth&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/config/auth.php&#10;eve&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/events_show.blade.php&#10;e&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;adm&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;edit&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/event_edit.blade.php&#10;cont&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/OrderController.php&#10;creat&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;mast&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;home&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/HomeController.php&#10;ad&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;agend&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/AgendaController.php&#10;ma&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;event&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;admi&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;tick&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/TicketController.php&#10;tic&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/TicketController.php&#10;a&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;h&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/HomeController.php&#10;admin&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;age&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/agenda.blade.php&#10;AG&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/AgendaController.php&#10;lo&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/LoginController.php&#10;LO&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/login.blade.php&#10;log&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/LoginController.php&#10;loginc&#9;null&#9;null&#10;ro&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;cre&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;css&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/public/css/main.css&#10;seed&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;route&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;ord&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/order.blade.php&#10;agen&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/agenda.blade.php&#10;order&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/OrderController.php&#10;master&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="ker&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Console/Kernel.php&#10;sub&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Subscription.php&#10;su&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/SubscriptionController.php&#10;dat&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;subs&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/SubscriptionController.php&#10;crea&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;mas&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;agen&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/agenda.blade.php&#10;da&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;rout&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;order&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/OrderController.php&#10;age&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/agenda.blade.php&#10;orde&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/OrderController.php&#10;event&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;data&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/seeds/DatabaseSeeder.php&#10;quema&#9;null&#9;null&#10;comp&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/composer.json&#10;eventco&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;route&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;abonne&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/abonnement.blade.php&#10;zaal&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_24_065541_create_zaals_table.php&#10;even&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;eve&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;create_ev&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;create&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_24_065541_create_zaals_table.php&#10;create_even&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;buy&#9;null&#9;null&#10;agend&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/AgendaController.php&#10;show&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/maintenance_show.blade.php&#10;main&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/MaintenanceController.php&#10;login&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/login.blade.php&#10;logi&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/LoginController.php&#10;rou&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/routes.php&#10;aut&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php&#10;auth&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/config/auth.php&#10;e&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/EventController.php&#10;adm&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;edit&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/event_edit.blade.php&#10;cont&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/OrderController.php&#10;creat&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/database/migrations/2015_06_01_123758_create_events_table.php&#10;mast&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;home&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/HomeController.php&#10;ad&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;ma&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/layouts/master.blade.php&#10;admi&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;tick&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/TicketController.php&#10;tic&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/TicketController.php&#10;a&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php&#10;h&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/app/Http/Controllers/HomeController.php&#10;admin&#9;FILE&#9;file:///Users/AlexStorm13/Documents/Vagrant/Manifesto_Harmelen/manifesto.dev/resources/views/admin_home.blade.php" />
     <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
     <property name="LayoutCode.rearrangeEntriesBlade" value="false" />
@@ -414,24 +537,24 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17932148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18416801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -460,141 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.875" vertical-offset="1740" max-vertical-offset="3135">
-          <caret line="175" column="12" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="30" max-vertical-offset="6570">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/order_success.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-          <caret line="14" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_02_085307_create_customers_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="570">
-          <caret line="14" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_01_143128_create_tickets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="675">
-          <caret line="17" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="113715">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/6bb8b548/6ef662c9-ac71-46b4-86fc-c7938b8b1a8f/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Registrar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1050">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="615">
@@ -606,39 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="630">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="555">
-          <caret line="6" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/order.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="600">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/get_saved_tickets.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="675">
-          <caret line="10" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/agenda.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.375" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,14 +601,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-48.75" vertical-offset="0" max-vertical-offset="1320">
           <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.958333" vertical-offset="55" max-vertical-offset="735">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin_home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="680">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="780">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="45" max-vertical-offset="1875">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_062441_create_maintenance__planners_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="600">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AgendaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/order_success.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="555">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MaintenanceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0833335" vertical-offset="820" max-vertical-offset="1530">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/events_show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.333334" vertical-offset="40" max-vertical-offset="720">
+          <caret line="40" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Zaal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Maintenance_Planner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -666,60 +711,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="555">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_061833_create_maintenances_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AgendaController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_24_065541_create_zaals_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.666666" vertical-offset="700" max-vertical-offset="1410">
-          <caret line="20" column="55" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#45#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.958333" vertical-offset="55" max-vertical-offset="735">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="630">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin_home.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="680">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="600">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1830">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="780">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="555">
+          <caret line="6" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/get_saved_tickets.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="675">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -728,98 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="555">
           <caret line="28" column="70" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="70" />
-          <folding>
-            <element signature="e#286#323#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="45" max-vertical-offset="1875">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-74.375" vertical-offset="75" max-vertical-offset="2340">
-          <caret line="132" column="23" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="225" max-vertical-offset="1095">
-          <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_01_123758_create_events_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4632353" vertical-offset="0" max-vertical-offset="705">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/events_show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88235295" vertical-offset="0" max-vertical-offset="720">
-          <caret line="40" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="405">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/event_edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="705">
-          <caret line="19" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_061833_create_maintenances_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="680">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.958333" vertical-offset="1495" max-vertical-offset="2175">
-          <caret line="124" column="43" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_062441_create_maintenance__planners_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="600">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/event_create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.833334" vertical-offset="145" max-vertical-offset="825">
-          <caret line="43" column="83" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -834,28 +793,208 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/maintenance_show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="660">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="660">
+          <caret line="36" column="16" selection-start-line="34" selection-start-column="12" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/abonnement.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="24" column="66" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/event_create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.375" vertical-offset="0" max-vertical-offset="825">
+          <caret line="47" column="29" selection-start-line="8" selection-start-column="6" selection-end-line="47" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.916666" vertical-offset="700" max-vertical-offset="1380">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4117647" vertical-offset="1020" max-vertical-offset="3435">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/create_subscription.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_24_074145_create_subscriptions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7083333" vertical-offset="121" max-vertical-offset="840">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.083334" vertical-offset="1120" max-vertical-offset="1800">
-          <caret line="110" column="15" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.25" vertical-offset="1095" max-vertical-offset="1860">
+          <caret line="99" column="60" selection-start-line="97" selection-start-column="8" selection-end-line="99" selection-end-column="60" />
           <folding>
             <element signature="e#45#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MaintenanceController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/event_edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8235294" vertical-offset="820" max-vertical-offset="1530">
-          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+        <state vertical-scroll-proportion="-18.708334" vertical-offset="1" max-vertical-offset="705">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="675">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435138826000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/Inspire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0833335" vertical-offset="139" max-vertical-offset="6975">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/email/confirm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/agenda.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="805" max-vertical-offset="1485">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="85" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="8" column="39" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-112.5" vertical-offset="0" max-vertical-offset="2910">
+          <caret line="189" column="5" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7083335" vertical-offset="400" max-vertical-offset="3105">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/email/info.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="630">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_01_123758_create_events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.458333" vertical-offset="1" max-vertical-offset="720">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="30" max-vertical-offset="2010">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#45#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Subscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="450">
+          <caret line="20" column="9" selection-start-line="8" selection-start-column="7" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5808824" vertical-offset="205" max-vertical-offset="885">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#36#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

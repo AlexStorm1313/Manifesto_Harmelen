@@ -19,6 +19,7 @@ class CreateEventsTable extends Migration
             $table->string('naam');
             $table->dateTime('begintijd');
             $table->dateTime('eindtijd');
+            $table->date('datum')->default('2015-06-26');
             $table->string('zaal');
             $table->integer('zaalid');
             $table->boolean('hidden')->default(false);

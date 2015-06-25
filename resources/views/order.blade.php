@@ -30,6 +30,11 @@
       array('name' => 'save', 'class'=>'btn'))!!}
 
     </div>
+    <div class="form-group">
+        {!! Form::submit('subscription',
+      array('name' => 'subscription', 'class'=>'btn'))!!}
+
+    </div>
     {!! Form::close() !!}
 
 @stop

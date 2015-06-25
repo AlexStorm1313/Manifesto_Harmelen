@@ -21,6 +21,8 @@ class DatabaseSeeder extends Seeder
         $this->call('UserTableSeeder');
         $this->call('MaintenanceTableSeeder');
         $this->call('Maintenance_PlannerTableSeeder');
+        $this->call('ZaalTableSeeder');
+        $this->call('CustomerTableSeeder');
     }
 }
 
@@ -35,24 +37,47 @@ class EventTableSeeder extends Seeder
             'id' => 13,
             'artiest' => 'Arrow Smith',
             'naam' => 'Rocked Up',
-            'begintijd' => '2015-03-01 22:00:00',
-            'eindtijd' => '2015-03-02 03:00:00',
-            'zaal' => 'Up and away & Down to the road of fear',
+            'begintijd' => '2015-06-27 22:00:00',
+            'eindtijd' => '2015-06-28 03:00:00',
+            'datum' => '2015-06-27',
+            'zaal' => 'Up and away',
             'zaalid' => 1,
             'speciaalevenement' => 0,
-            'aantalkaarten' => 150,
+            'aantalkaarten' => 15,
         ));
 
         DB::table('events')->insert(array(
             'id' => 14,
             'artiest' => 'Snoop Dogg',
             'naam' => '#420',
-            'begintijd' => '2015-03-03 13:00:00',
-            'eindtijd' => '2015-03-05 14:00:00',
+            'begintijd' => '2015-07-11 13:00:00',
+            'eindtijd' => '2015-07-11 14:00:00',
             'zaal' => 'Space down',
             'zaalid' => 2,
             'speciaalevenement' => 0,
-            'aantalkaarten' => 150,
+            'aantalkaarten' => 15,
+        ));
+        DB::table('events')->insert(array(
+            'id' => 15,
+            'artiest' => 'Snoop Dogg Xtra',
+            'naam' => '#420 extra concert',
+            'begintijd' => '2015-08-09 13:00:00',
+            'eindtijd' => '2015-08-09 14:00:00',
+            'zaal' => 'Space down',
+            'zaalid' => 2,
+            'speciaalevenement' => 0,
+            'aantalkaarten' => 0,
+        ));
+        DB::table('events')->insert(array(
+            'id' => 16,
+            'artiest' => 'Xtra',
+            'naam' => 'extra concert',
+            'begintijd' => '2015-06-25 13:00:00',
+            'eindtijd' => '2015-06-25 14:00:00',
+            'zaal' => 'Space down',
+            'zaalid' => 2,
+            'speciaalevenement' => 0,
+            'aantalkaarten' => 0,
         ));
     }
 }
@@ -102,7 +127,8 @@ class UserTableSeeder extends Seeder
     }
 }
 
-class MaintenanceTableSeeder extends Seeder{
+class MaintenanceTableSeeder extends Seeder
+{
     public function run()
     {
         DB::table('maintenances')->delete();
@@ -129,13 +155,49 @@ class MaintenanceTableSeeder extends Seeder{
         ));
     }
 }
-class Maintenance_PlannerTableSeeder extends Seeder{
-    public function run(){
+
+class Maintenance_PlannerTableSeeder extends Seeder
+{
+    public function run()
+    {
         DB::table('maintenance__planners')->delete();
         DB::table('maintenance__planners')->insert(array(
             'date' => '2015-03-01 22:00:00',
             'creator_id' => 3,
             'maintenance_id' => 10
+        ));
+    }
+}
+
+class ZaalTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('zaals')->delete();
+        DB::table('zaals')->insert(array(
+            'zaal_naam' => 'Grote zaal',
+            'max_bezoekers' => 150,
+            'laatste_schoonmaak' => '2015-02-02',
+            'laatste_mechanische' => '2015-02-02',
+            'laatste_visuele' => '2015-02-02',
+        ));
+        DB::table('zaals')->insert(array(
+            'zaal_naam' => 'Kleine zaal',
+            'max_bezoekers' => 50,
+            'laatste_schoonmaak' => '2015-02-02',
+            'laatste_mechanische' => '2015-02-02',
+            'laatste_visuele' => '2015-02-02',
+        ));
+    }
+}
+
+class CustomerTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('customers')->delete();
+        DB::table('customers')->insert(array(
+            'email' => 'alexbrasser@gmail.com',
         ));
     }
 }

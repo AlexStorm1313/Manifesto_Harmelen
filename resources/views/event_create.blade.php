@@ -33,7 +33,7 @@
         </div>
         <div class="form-group">
             {!! Form::label('zaal', 'Zaal') !!}
-            {!! Form::text('zaal' ,'',  array('class' => 'form-control')) !!}
+            {!! Form::select('zaal' , $zalen,0,  array('class' => 'form-control')) !!}
         </div>
         <div class="form-group">
             {!! Form::label('hidden', 'Hidden evenement') !!}
